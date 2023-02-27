@@ -284,7 +284,7 @@ const Elements = () => {
            
             aria-label="Close popup modal"
             onClick={hidemodal}
-          > Close</button>
+          > Close window</button>
     </Modal>
     <Dialog hidden={hideDialog}
      dialogContentProps={dialogContentProps}
