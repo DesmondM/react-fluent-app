@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container{
+  display:flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  
+}
+
+.footerContainer{
+  display: flex;
+  width: fit-content;
+  justify-content: right;
+}
+.footerContainer div{
+  display: flex;
+  width: fit-content;
+  justify-content: right;
+  margin: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerContainer div:hover{
+  cursor: pointer;
+ 
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+element.style {
+  min-width: 50%;
+}
+
+
+
+.theList{
+  overflow:auto;
+
+}
+
+::-webkit-scrollbar{
+  width: 18px;
+  
+}
+
+::-webkit-scrollbar-track{
+  background-image: linear-gradient(to bottom, #037d9f, #61dafb);
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  height: 30vh
+ 
+}
+
+::-webkit-scrollbar-thumb{
+  background: #d1d5d1;
+  border: 1px solid #282c3400;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #aeafae;
+}
+
+.link-138::after {
+  border-left: 2px solid rgb(249, 201, 8);
+  content: "";
+  position: absolute;
+  inset: 0px;
+  pointer-events: none;
+}
+
+#focuszone-id[focuszone-id="FocusZone0"]{
+  background: beige;
+}
+
+#root{
+  background-color: rgba(225, 223, 221, 0.2);
+}
+
+.ms-nav{
+  background-color: white;
+}
+
+.ms-Grid-col{
+  padding-left: 0;
+  margin-left: 0;
+}
